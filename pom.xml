@@ -105,7 +105,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-Java</artifactId>
-            <version>6.0.5</version>
+            <version>5.1.40</version>
         </dependency>
         <dependency>
             <groupId>c3p0</groupId>
@@ -128,9 +128,9 @@
             <version>1.1.0.Final</version>
         </dependency>
         <dependency>
-            <groupId>org.hibernate.validator</groupId>
+            <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
-            <version>${hibernate.version}</version>
+            <version>5.3.4.Final</version>
         </dependency>
     </dependencies>
     <build>
